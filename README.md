@@ -1,6 +1,6 @@
-# CPSC 310 Project
+# CPSC 310 Starter
 
-This is the base project for CPSC310. Using it will help you get started with many of the tools we will use this term.
+This is a starter for CPSC310. Using it will help you get started with many of the tools we will use this term. While this is a great resource for getting your tools and environment setup on your computer, you will need to start again (although it will take under 5 minutes the second time) once the project is released.
 
 ### Configure Environment
 
@@ -10,16 +10,9 @@ To start using this project you need to get your computer configured so you can 
 
 1. Install Node, which will also install NPM (you should be able to execute ```node -v``` and ```npm -v``` the command line).
 
-1. It is important that your project directory be called ```cpsc310project``` if you want to work with the public test suite we are providing. The easiest way to do this is to:
-  
- * Clone the project: ```git clone git@github.com:CS310-2016Fall/cpsc310project_teamXXX.git``` (where ```XXX``` is your team number)
- 
- * Move it to the right name: ```mv cpsc310project_teamXXX cpsc310project``` (again replacing ```XXX```)
-
-
 ### Prepare project
 
-Once your project is configured you need to further prepare the project's tooling and dependencies. In the ```cpsc310project``` folder:
+Once your project is configured you need to further prepare the project's tooling and dependencies. In the ```cpsc310starter``` folder:
 
 1. ```npm run clean```
 
@@ -36,15 +29,9 @@ The sample project ships with some automated unit tests. These commands will exe
 
 You can also run the tests as a Mocha target inside your favourite IDE (WebStorm and VSCode both work well and are free for academic use).
 
-### Run integration tests
-
-See the [cpsc310d1-pub](https://github.com/CS310-2016Fall/cpsc310d1-pub) repo for instructions.
-
-### Start the server (for use with UI)
+### Start the server (for use with UI or curl)
 
 * ```npm run start``` (or ```npm start```)
-
-See the [cpsc310-ui](https://github.com/CS310-2016Fall/cpsc310ui) repo for instructions.
 
 ### Developing the system
 
