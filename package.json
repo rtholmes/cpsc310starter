@@ -1,0 +1,35 @@
+{
+  "name": "cpsc310bootstrap",
+  "description": "Stub project",
+  "homepage": "https://github.com/ubccpsc/310",
+  "author": "Reid Holmes",
+  "contributors": "N/A",
+  "license": "GPL-3.0",
+  "repository": "N/A",
+  "bugs": "",
+  "keywords": [],
+  "version": "0.0.1",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "icedfrisby": "^0.2.4",
+    "istanbul": "^0.4.4",
+    "joi": "^8.4.2",
+    "mocha": "^2.5.3",
+    "typescript": "^1.8.7",
+    "typings": "^1.3.0"
+  },
+  "scripts": {
+    "clean": "rm -rf ./typings/; rm -rf ./node_modules/;",
+    "configure": "npm install; typings install --global;",
+    "build": "tsc",
+    "test": "mocha -c",
+    "cover": "istanbul cover _mocha",
+    "start": "node src/App.js"
+  },
+  "dependencies": {
+    "jszip": "^3.1.2",
+    "restify": "^4.0.3",
+    "tslint": "^3.15.1",
+    "typescript": "^1.8.10"
+  }
+}

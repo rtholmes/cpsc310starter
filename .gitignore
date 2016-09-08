@@ -1,0 +1,16 @@
+.idea/
+node_modules/
+bak/
+coverage/
+typings/
+src/*.js
+src/*.map
+src/**/*.js
+src/**/*.map
+test/*.js
+test/*.map
+npm-debug.log
+.DS_Store
+.hg/
+.hgignore
+
