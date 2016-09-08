@@ -1,6 +1,6 @@
 # CPSC 310 Starter
 
-This is a starter for CPSC310. Using it will help you get started with many of the tools we will use this term. While this is a great resource for getting your tools and environment setup on your computer, you will need to start again (although it will take under 5 minutes the second time) once the project is released.
+This is a starter for CPSC310. Using it will help you get started with many of the tools we will use this term. While this is a great resource for getting your tools and environment setup on your computer, you will need to start again (although it will take under 5 minutes the second time) once the project is released. We will go over this in the first lecture, but if you are concerned you can follow the steps below in advance if you wish.
 
 ### Configure Environment
 
