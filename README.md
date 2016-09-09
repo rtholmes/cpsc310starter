@@ -10,6 +10,8 @@ To start using this project you need to get your computer configured so you can 
 
 1. Install Node, which will also install NPM (you should be able to execute ```node -v``` and ```npm -v``` the command line).
 
+1. Check out the project: ```git clone https://github.com/rtholmes/cpsc310starter.git```
+
 ### Prepare project
 
 Once your project is configured you need to further prepare the project's tooling and dependencies. In the ```cpsc310starter``` folder:
