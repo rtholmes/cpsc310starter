@@ -14,6 +14,8 @@ To start using this project you need to get your computer configured so you can 
 
 ### Prepare project
 
+Note: these commands will run on Linux and OS X, but ```npm run clean``` probably won't work on windows (this should be ok).
+
 Once your project is configured you need to further prepare the project's tooling and dependencies. In the ```cpsc310starter``` folder:
 
 1. ```npm run clean```
